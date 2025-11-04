@@ -1,0 +1,9 @@
+body, html { margin: 0; padding: 0; font-family: sans-serif; height: 100%; overflow: hidden; }
+#desktop { width: 100%; height: 100%; position: relative; background-image: url('https://github.com/KDE/breeze/blob/master/wallpapers/Next/contents/images/7680x2160.png?raw=true'); background-size: cover; background-position: center; }
+#taskbar { position: absolute; bottom: 0; width: 100%; height: 40px; background: rgba(0,0,0,0.7); display: flex; align-items: center; z-index: 10; }
+#taskbar button { margin: 0 5px; padding: 5px 10px; cursor: pointer; }
+.window { position: absolute; background: #222; color: #fff; border: 2px solid #555; width: 600px; height: 400px; resize: both; overflow: hidden; z-index: 5; }
+.window-header { background: #444; padding: 5px; cursor: move; display: flex; justify-content: space-between; align-items: center; }
+.window-content { width: 100%; height: calc(100% - 30px); background: #111; }
+.window-controls { display: flex; gap: 5px; }
+.window-controls button { width: 20px; height: 20px; border: none; background: #666; color: white; cursor: pointer; font-weight: bold; line-height: 20px; padding: 0; }
